@@ -28,6 +28,14 @@
       export RUSTUP_DIST_SERVER="https://rsproxy.cn"
       export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
 
+      nr() {
+        cd ~/nconf
+        git add .
+        git commit -m "update nix config"
+        sudo nixos-rebuild switch --flake .
+        cd -
+      }
+
       clear_color="\e[0m"
       clear_color="\e[0m"
       red_color="\e[31m"
