@@ -60,7 +60,7 @@
           echo "$red_color[\u@\h]$clear_color"
       }
 
-      PS1="$(fn_get_user_name)$(fn_get_workspace)$(fn_get_git_branch)\n> "
+      PS1="$(fn_get_user_name)$(fn_get_git_branch)$(fn_get_workspace)\n> "
     '';
   };
 }
