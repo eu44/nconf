@@ -30,9 +30,9 @@
 
       nr() {
         cd ~/nconf
-        nix flake update
         git add .
         git commit -m "update nix config"
+        git push origin main
         sudo nixos-rebuild switch --flake .
         cd -
       }
