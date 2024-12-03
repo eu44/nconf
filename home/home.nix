@@ -43,6 +43,7 @@
     nixfmt-rfc-style
     nil
 
+    alsa
     # nautilus
     # wl-clipboard
     # xclip
