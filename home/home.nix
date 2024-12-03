@@ -31,7 +31,7 @@
     # kitty
     # glfw
     # gtk3
-    mesa
+    # mesa
     # mesa-utils
     # glxgears
     # 给每个项目创建虚拟专属环境用的，类似devcontainer，配合direnv使用
@@ -42,6 +42,8 @@
     fastfetch
     nixfmt-rfc-style
     nil
+
+    nautilus
     # wl-clipboard
     # xclip
     # xorg.xeyes
