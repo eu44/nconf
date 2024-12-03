@@ -59,7 +59,7 @@
                     # vialias = true;
                   };
                 };
-                sound.enable = true;
+                
                 services.pipewire.alsa.enable = true;
               }
             )
