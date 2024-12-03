@@ -4,8 +4,6 @@
   programs.git = {
     enable = true;
     lfs.enable = true;
-    # userName = "ru";
-    # userEmail = "ru@fufu.moe";
     config = [
       {
         init = {

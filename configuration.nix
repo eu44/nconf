@@ -10,7 +10,7 @@
     curl
   ];
 
-  # vscode-remote-workaround.enable = true;
+  # wsl vscode连接必须下载
   programs.nix-ld = {
     enable = true;
     package = pkgs.nix-ld-rs; # only for NixOS 24.05
