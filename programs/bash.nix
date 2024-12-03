@@ -6,6 +6,15 @@
     # rust代理
     export RUSTUP_DIST_SERVER="https://rsproxy.cn"
     export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
+
+    nr() {
+      cd ~/nconf
+      nix flake update
+      git add .
+      git commit -m "update nix config"
+      sudo nixos-rebuild switch --flake .
+      cd -
+    }
   '';
   programs.bash.shellAliases = lib.mkDefault {
     sudo = "sudo ";
