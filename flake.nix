@@ -59,7 +59,7 @@
                     # vialias = true;
                   };
                 };
-                
+                services.displayManager.sddm.wayland.enable = true;
                 services.pipewire.alsa.enable = true;
               }
             )
