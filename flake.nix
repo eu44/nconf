@@ -59,6 +59,8 @@
                     # vialias = true;
                   };
                 };
+
+                services.pipewire.alsa.enable = true;
               }
             )
 

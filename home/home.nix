@@ -43,7 +43,7 @@
     nixfmt-rfc-style
     nil
 
-    nautilus
+    # nautilus
     # wl-clipboard
     # xclip
     # xorg.xeyes
